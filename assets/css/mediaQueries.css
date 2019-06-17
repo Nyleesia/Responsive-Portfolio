@@ -90,6 +90,10 @@
         font-size: 10px;
     }
 
+    .portfolio-link{
+        border-left: lightgray 0.25px solid;
+        border-right: none;
+
     .portfolio-image {
         float:left;
         margin:20px;
