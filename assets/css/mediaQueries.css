@@ -65,6 +65,7 @@
         padding-top: 5%;
         padding-bottom: 5%;
         height: 100%;
+        margin-top: 10px;
     }
 
     .myphoto img {
@@ -80,6 +81,7 @@
     }
 
     footer{
+        margin-top: 2px;
         height: auto;
         padding: 2%;
     }
