@@ -1,0 +1,59 @@
+/* styling for class "main-content"  */
+.main-content{
+    max-width: 960px;
+    padding-left:30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid 1px #dddddd;
+    margin-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    background-color: white;
+    opacity: 1.0;
+}
+
+/* styling for class "about-me"  */
+.header{ 
+    border: solid 1px #dddddd;
+    border-bottom: 2px;
+    max-width: 960px;
+    margin: auto;
+    padding-left: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    align-content: center;
+    color: cadetblue;
+    height: 95px;
+    border-bottom: 2px gainsboro solid;
+    background-color: white;
+    opacity: 1.0;
+}
+
+/* styling for image using class name and 
+selector (image) specificity */
+.myphoto img {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    float: left;
+    display: flex;
+    border-color: darkgray 0.5px solid;
+    width: 300px;
+    height: 300px;
+ }
+
+/* styling for paragraphs around image
+    and for image which is in the <p> tags  */
+.paragraphs {
+    clear:both;
+    overflow: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: darkgray;
+    line-height: 1.8em;
+  }

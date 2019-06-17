@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+}
+
+/* the navigation bar */
+.navbar {
+    text-align: center;
+    height:95px;
+    width: 100%;
+    border-bottom: 1px gainsboro solid;  
+    background-color: white;
+    opacity: 1.0;
+}
+
+/* styling for classes "my-name" and "tabs" */
+.nav-content {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    align-content: space-between;
+}
+
+/* font styling for classes "my-name" and "about-me" */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* in navigation bar */
+.my-name {
+    padding: 25px;
+    margin-top: 10px;
+    float: left;
+    background-color: cadetblue;
+    color: white;
+}
+
+.my-name a {
+    text-decoration: none;
+}
+
+/* 
+.tabs {
+    margin-top: 10px;
+    float: right;
+    color: darkgrey;
+    display: flex;
+    max-width: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    max-inline-size: 25%;
+    padding: 25px;
+    float: right;
+    margin-left: 310px;
+}
+
+.tabs a {
+    text-decoration: none;
+}
+
+.tabs div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.main-content{
+    max-width: 960px;
+    padding-left:30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid 1px #dddddd;
+    margin-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    background-color: white;
+    opacity: 1.0;
+}
+
+.header{ 
+    border: solid 1px #dddddd;
+    border-bottom: 2px;
+    max-width: 960px;
+    margin: auto;
+    padding-left: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    align-content: center;
+    color: cadetblue;
+    height: 95px;
+    border-bottom: 2px gainsboro solid;
+    background-color: white;
+    opacity: 1.0;
+}
+
+.myphoto img {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    float: left;
+    display: flex;
+    border-color: darkgray 0.5px solid;
+    width: 300px;
+    height: 300px;
+ }
+
+.paragraphs {
+    clear:both;
+    overflow: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: darkgray;
+    line-height: 1.8em;
+  }
+
+footer{
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    height: 60px;
+    border-top: solid 5px cadetblue;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.quote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+}
+
+.portfolio-image {
+    float:left;
+    margin:20px;
+    max-width:30%;
+    max-height:30%;
+}
+
+.caption {
+    position: relative;
+    bottom: 75px;
+    height: 60px;
+    color: white;
+    width: 75%;
+    background: cadetblue;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.portfolio-link{
+    border-left: lightgray 0.25px solid;
+    border-right: lightgray 0.25px solid;
+}
+
+.portfolio-images img{
+    width: 75%;
+    display:inline-block;
+    display: flex;
+    justify-content: center;
+    border: solid 1px #dddddd;
+}  
+
+h3{
+    color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form{ 
+    width: 100%;
+
+}
+
+.contact-form h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width:100%;
+    font-size:12px;
+    padding: 5px;
+}
+
+#messageinput {
+    height: 150px;
+    width:100%;
+}
+
+#submit input {
+    max-width: 60px;
+    margin-top:15px;
+    background-color:cadetblue;
+    color: white;
+    padding: 8px;
+    font-size:14px;
+    border-style: none;
+}
+
+.my-name a:visited {
+    color:inherit;
+}
+.my-name a:hover {
+    text-decoration-line: underline;
+}
+.tabs a:visited {
+    color: inherit;
+}
+.tabs a:hover {
+    color: cadetblue;
+    text-decoration-line: underline;
+}
+
+.myphoto img:hover{
+    width: 325px;
+    height: 325px;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+.quote a:hover{ 
+    font-weight: bolder;
+}
+
+#submit input:hover{ 
+    border: dimgray 1.5px solid;
+}
+
+@media only screen and (max-width: 859px){
+
+    *{
+        box-sizing:auto;
+    }
+
+    body {
+        margin: auto;
+    }
+
+    .navbar {
+        text-align: center;
+        height:auto;
+        width: 100%;
+    }
+    
+    .nav-content {
+        max-width: auto;
+        margin: auto;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+    
+    .my-name {
+        padding-left: 10px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+        font-size: 15px;
+        justify-content: center;
+        max-inline-size: 25%;
+        padding: 10px;
+        margin-left: auto;
+        line-height: 1.5em;
+    }
+
+    .tabs div {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .main-content{
+        max-width: auto;
+        padding-left:10px;
+        flex-wrap: wrap;
+    }
+
+    .header{ 
+        max-width: auto;
+        padding-left: 10px;
+        display:flex;
+        flex-wrap: wrap;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: 100%;
+    }
+
+    .myphoto img {
+        margin-right: 5%;
+        margin-bottom: 10px;
+        width: 40%;
+        height: 40%;
+    }
+
+    .paragraphs {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    footer{
+        height: auto;
+        padding: 2%;
+    }
+
+    .quote {
+        font-size: 10px;
+    }
+
+    .portfolio-image {
+        float:left;
+        margin:20px;
+        max-width:30%;
+        max-height:30%;
+    }
+
+    .caption {
+        bottom: 50%;
+        height: 50%;
+        padding: 1%;
+        font-size: 75%;
+    }
+    
+    .contact-form{ 
+        width: 90%;
+    }
+
+    input {
+        font-size:10px;
+    }
+    
+    h3 {
+        font-size: 12px;
+    }
+
+    #messageinput {
+        height: auto;
+        min-height: 80px;
+    }
+    
+    #submit input {
+        font-size:75%;
+    }
+
+    .tabs a:visited {
+        color: inherit;
+    }
+
+    .myphoto img:hover{
+        width: 40%;
+        height: 40%;
+        margin-right: 5%;
+        margin-bottom:10px;
+    }
+    
+    .quote a:hover{ 
+        font-weight: normal;
+    
+
+} 

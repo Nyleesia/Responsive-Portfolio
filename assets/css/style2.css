@@ -1,0 +1,37 @@
+/* font styling for class "tabs"  */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* styling for class "tabs"  */
+.tabs {
+    margin-top: 10px;
+    float: right;
+    color: darkgrey;
+    display: flex;
+    max-width: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    max-inline-size: 25%;
+    padding: 25px;
+    float: right;
+    margin-left: 310px;
+}
+
+.tabs a {
+    text-decoration: none;
+}
+
+.tabs div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* styling for class "body"  */
+body {
+    box-sizing: border-box;
+}

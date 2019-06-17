@@ -1,0 +1,28 @@
+.my-name a:visited {
+    color:inherit;
+}
+.my-name a:hover {
+    text-decoration-line: underline;
+}
+.tabs a:visited {
+    color: inherit;
+}
+.tabs a:hover {
+    color: cadetblue;
+    text-decoration-line: underline;
+}
+
+.myphoto img:hover{
+    width: 325px;
+    height: 325px;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+.quote a:hover{ 
+    font-weight: bolder;
+}
+
+#submit input:hover{ 
+    border: dimgray 1.5px solid;
+}

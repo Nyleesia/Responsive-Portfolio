@@ -1,0 +1,35 @@
+h3{
+    color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form{ 
+    width: 100%;
+
+}
+
+.contact-form h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width:100%;
+    font-size:12px;
+    padding: 5px;
+}
+
+#messageinput {
+    height: 150px;
+    width:100%;
+}
+
+#submit input {
+    max-width: 60px;
+    margin-top:15px;
+    background-color:cadetblue;
+    color: white;
+    padding: 8px;
+    font-size:14px;
+    border-style: none;
+}
