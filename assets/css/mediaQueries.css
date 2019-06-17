@@ -92,7 +92,7 @@
 
     .portfolio-link{
         border-left: lightgray 0.25px solid;
-        border-right: none;
+        border-right: lightgray 0.0px solid;
     }
 
     .portfolio-image {
